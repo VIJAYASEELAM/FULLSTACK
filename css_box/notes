@@ -5,3 +5,13 @@ height:400 ante ah element height 400 avthadi
 if height tho patu 
 box-sizing: border-box; ---> idi pedithe element with its height and padding, border kalipi istadi (except margin enduku ante margin  is outside element kabatti
 )
+
+MARGIN COLLAPSE:
+ippudu oka two elements okechota unte largevalu will be taken in margin
+
+
+Fontfamily--------anni , petti rasey okati lekapothe inkoyi apply chestadi left to right choosukuntoo vastadi edi unte adi
+
+importing from google:
+way 1 - using import statement vade ichestadu copy chesi style tag lone pettali lekapothe work avvadu and stles.css lo vadu ichina class lo code copy chesi pettu
+

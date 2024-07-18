@@ -1,14 +1,24 @@
-.box{
+
+.box {
     background-color: aqua;
 }
-.box1{
+
+.box1 {
     color: yellow;
-    padding: 10px;/*all side 10 px istadi gap outside the content */
+    padding: 10px; /* All sides 10px inside the content */
     margin: 5px;
     border: 2px solid blue;
     height: 200px;
     box-sizing: border-box;
 }
-.box2{
+
+.box2 {
     color: red;
 }
+
+.googlefonts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+/* <weight>: Use a value from 400 to 700 */
