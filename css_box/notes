@@ -1,0 +1,7 @@
+html content paina padding untadi , and padding paina margin untadi , nee content ki padding kalipesi bayata border untadi
+
+
+height:400 ante ah element height 400 avthadi
+if height tho patu 
+box-sizing: border-box; ---> idi pedithe element with its height and padding, border kalipi istadi (except margin enduku ante margin  is outside element kabatti
+)

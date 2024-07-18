@@ -1,0 +1,14 @@
+.box{
+    background-color: aqua;
+}
+.box1{
+    color: yellow;
+    padding: 10px;/*all side 10 px istadi gap outside the content */
+    margin: 5px;
+    border: 2px solid blue;
+    height: 200px;
+    box-sizing: border-box;
+}
+.box2{
+    color: red;
+}
