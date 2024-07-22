@@ -6,4 +6,7 @@ ippudu top:-23 ante mundu unna element /block meedaki veltadi
 
 -->see oka dani meeda okati pettaka  neeku ey block paiki kavalo dani properties loki velli z-index: 0 tappa ey number ichina paiki velthadi
 ayithe top change cheyy lekapothe bottom change cheyyi
-position absolute ----- idi deeni nearest positional ancestor ki relative ga work avtundi
+position absolute ----- idi deeni nearest positional ancestor ki relative ga work avtundi parent ey tiem position ayina parle
+EXCEPTION NOTE:Transform ,filter ,perspective ee properties ni kooda positional ga ne teesukuntaru
+
+position sticky - means the position of that element will be as it is even we move the website.//tnis will be useful when we want to design navbar
