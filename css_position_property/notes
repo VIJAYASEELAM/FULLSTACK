@@ -1,0 +1,9 @@
+position is by default static
+
+if position:relative ila ayithe only ah element matrame martadi migatavi ala unchesi
+
+ippudu top:-23 ante mundu unna element /block meedaki veltadi
+
+-->see oka dani meeda okati pettaka  neeku ey block paiki kavalo dani properties loki velli z-index: 0 tappa ey number ichina paiki velthadi
+ayithe top change cheyy lekapothe bottom change cheyyi
+position absolute ----- idi deeni nearest positional ancestor ki relative ga work avtundi
