@@ -1,0 +1,40 @@
+.card{
+  
+    height: 550px;
+    width: 350px;
+    margin: 90px auto;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+    border-radius: 12px;
+}
+.rounded{
+    border-radius: 12px;
+}
+.capsules
+{
+    width: 350px;
+    height: 30px;
+}
+.cap1{
+    width: 70px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: rgb(233, 233, 195);
+    border: 1px solid white;
+   margin: 8px 15px 5px 5px;
+   padding: 2px 2px 2px 2px;
+   text-align: center;
+   display: inline-block;
+}
+.cap2{
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: rgb(233, 233, 195);
+    border: 1px solid white;
+   margin: 5px 15px 5px 5px;
+   padding: 2px 2px 2px 2px;
+   text-align: center;
+   display: inline-block;
+}
