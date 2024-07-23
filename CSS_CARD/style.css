@@ -1,16 +1,27 @@
 .card{
   
-    height: 550px;
+    height: 600px;
     width: 350px;
     margin: 90px auto;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(248, 248, 245, 0.962);
     border-radius: 12px;
+    border: 2px solid rgb(200, 193, 193);
+
 }
 .rounded{
     border-radius: 12px;
 }
+.para{
+    
+   
+   
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
 .capsules
 {
     width: 350px;
@@ -20,9 +31,9 @@
     width: 70px;
     height: 20px;
     border-radius: 15px;
-    background-color: rgb(233, 233, 195);
-    border: 1px solid white;
-   margin: 8px 15px 5px 5px;
+    background-color: white;
+    border: 1px solid rgb(173, 185, 216);
+   margin: 8px 5px 5px 5px;
    padding: 2px 2px 2px 2px;
    text-align: center;
    display: inline-block;
@@ -31,10 +42,19 @@
     width: 60px;
     height: 20px;
     border-radius: 15px;
-    background-color: rgb(233, 233, 195);
-    border: 1px solid white;
-   margin: 5px 15px 5px 5px;
+    background-color:  white;
+    border: 1px solid rgb(173, 185, 216);
+   margin: 0px 15px 5px 5px;
    padding: 2px 2px 2px 2px;
    text-align: center;
    display: inline-block;
+}
+.read{
+    border-radius: 20px;
+    margin-left: 105px;
+    box-sizing: border-box;
+    width: 100px;
+    color: rgb(43, 85, 148);
+    background-color: rgb(178, 234, 234);
+    height: 40px;
 }
