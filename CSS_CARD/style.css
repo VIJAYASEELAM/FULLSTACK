@@ -50,11 +50,13 @@
    display: inline-block;
 }
 .read{
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 105px;
     box-sizing: border-box;
-    width: 100px;
-    color: rgb(43, 85, 148);
-    background-color: rgb(178, 234, 234);
-    height: 40px;
+    width: 110px;
+    font-size: 16px;
+    font-family: fantasy;
+    color: rgb(91, 128, 201);
+    background-color: rgb(186, 202, 215);
+    height: 50px;
 }
