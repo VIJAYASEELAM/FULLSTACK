@@ -1,0 +1,35 @@
+:root{
+    --color: blue; /*color anedi variable name*/
+    --seccolor: rgb(233, 82, 157);/*see : pakkana gap undela choodu*/
+    /*veetini global variables antaru*/
+    --thirdvar: orange;
+    --defpad: 20px;/*the css variables can also hold other properties*/
+  --defop: 0.4;
+}
+.nav{
+    background-color: var(--color);/*ila you can use variables*/
+}
+.container{
+    background-color: var(--seccolor);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 34px;
+    opacity: var(--defop);
+    border: 2px solid var(--seccolor);
+}
+ul li:first-child{
+   --thirdvar: green;/*ila you can override the colors -- deenni local variable antaru */
+    /* background-color: var(--color); */
+    background-color: var(--thirdvar, blue);/*ante ah particular variable lenappudu pakkana blue color ni vadtundi*/
+    /*madyalo ,(comma) pettaledu anuko thirdvar anedi blue ani kothaga manam declare chesina ardam vastadi*/
+  
+}
+
