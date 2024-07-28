@@ -1,0 +1,46 @@
+
+:root{
+    --firstc: red;
+    --seccol: rgb(232, 212, 26);
+    --portc: black;
+    --servc: purple;
+    --galc: skyblue;
+    --contac: green;
+
+
+
+}
+ul li:first-child{
+    background-color: var(--firstc);
+}
+ul li:nth-child(2){
+    background-color: var(--seccol);
+}
+
+ul li:nth-child(3){
+    background-color: var(--portc);
+}
+ul li:nth-child(4){
+    background-color: var(--servc);
+}
+ul li:nth-child(5){
+    background-color: var(--galc);
+}
+ul li:nth-child(6){
+    background-color: var(--contac);
+}
+
+body{
+    background-color: var(--galc);
+    color: azure;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+    border: 2px solid blueviolet;
+}
+/* note very important we should never put . infront of tags when we want to style them */
+
