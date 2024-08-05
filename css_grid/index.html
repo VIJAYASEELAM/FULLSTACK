@@ -5,28 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRID</title>
     <style>
-        .container{
+        .container
+        {
             border: 2px solid black;
-            /* width: 100px;
-            /* height: 100px; */
+          
             display: grid;
-            grid-template-columns: 100px 100px;
-            /* grid-template-columns: 120px 100px; */ 
+             grid-template-columns: 100px 100px 100px 100px; 
+             /* ila columns ichi nee items div lo matter ivii dani batti u get the grid just columns chestadi every column will be 100px and it make 3 columns */
+             /* grid-template-rows: 100px 100px; */
+             /* alignitems ki centre anukko column wise lo centre chestadhi
+                justify items anuko row wise centre chestadi */
+                /* manaki container boxes or items kanna chala peddadi ayithe justify content - idi row wise  centre pedthadi align content emo column wise*/
+            /* grid-template-columns: 120px 100roperties istay like colorspx;  ilaga columns rows iste it will make boxes and vatilo nu items ki ichina p */ 
         }
-        .items{
-            border: 2px solid black;
-            width: 55px;
-            height: 55px;
+        .items
+        {
+            border: 2px solid black;/**/
+            /* width: 100px;
+            height: 100px; */
+            background-color: aqua;
         }
     </style>
 </head>
 <body>
     <div class="container">
-       <div class="items"></div>
-       <div class="items"></div>
-       <div class="items"></div>
-       <div class="items"></div>
-       <div class="items"></div>
+       <div class="items">dabba1</div>
+       <div class="items">dabba2</div>
+       <div class="items">dabba3</div>
+       <div class="items">dabba4</div>
+       <div class="items">dabba5</div>
     </div>
 </body>
 </html>
