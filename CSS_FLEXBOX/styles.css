@@ -1,20 +1,20 @@
 .item{
     height: 50px;
-    width: 100px;
+    width: 50px;
     background-color: blueviolet;
     margin: 4px;
-
+    
     border: 2px solid red;
 }
 .container
 {
-    display: flex;
-    height: 50px;
-    flex-direction: column;/*ante coloumn lo ante vertical ga oka dani kinda okati untadi*/
-    justify-content: center;/*idi first row lo data ni center ki pedtundi */
-    align-items: center;/*idi coloumn ki madyalo vastadi so paidi idi vadadam valla motham box ki centre loki vastadi*/
-    align-content: center;/*more than one unnappudu lines align items place lo align content ni use karo*/
-    flex-wrap: wrap;/*ante content ekkuva ayithe kinda next line lo vastayi migatavi avthayi*/
+    display: flex;/*mana items indulo unnay avi row wise flex avvali kabatti container lo pedtam flex*/
+    height: 80vh;
+    /* flex-direction: column;ante coloumn lo ante vertical ga oka dani kinda okati untadi */
+    justify-content: right;/*idi first row lo data ni center ki pedtundi */
+    /* align-items: center;idi coloumn ki madyalo vastadi so paidi idi vadadam valla motham box ki centre loki vastadi */
+    /* align-content: center;more than one unnappudu lines align items place lo align content ni use karo */
+    /* flex-wrap: wrap;ante content ekkuva ayithe kinda next line lo vastayi migatavi avthayi */
     border: 2px solid black;
     /* flex-wrap: wrap-reverse;    ante kkothavi vachinappudu avi paina add chesstam */
     /*justify items anevi undav*/
@@ -23,6 +23,6 @@
       flex-flow: row wrap;
      */
      /* gap : */
-     gap: 30px;
+     /* gap: 30px; */
      /* ante element ki element ki anta gap untadi */
 }
