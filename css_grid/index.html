@@ -11,6 +11,7 @@
           
             display: grid;
              grid-template-columns: 100px 100px 100px 100px; 
+             grid-template-rows: 100px 100px;
              /* ila columns ichi nee items div lo matter ivii dani batti u get the grid just columns chestadi every column will be 100px and it make 3 columns */
              /* grid-template-rows: 100px 100px; */
              /* alignitems ki centre anukko column wise lo centre chestadhi
@@ -25,12 +26,24 @@
             height: 100px; */
             background-color: aqua;
         }
+        .item-1{
+            grid-column: 1/2;/*ante 1 column dagga start avvu 2 column daggara end avvu*/
+            grid-row: 1/2;
+        }
+        .item-2{
+            grid-column: 1/2;/*ante 1 column dagga start avvu 2 column daggara end avvu*/
+            grid-row: 1/2;/*same for column*/
+        }
+        /* see ila 2 itms ki same properties petti vatini nenu 2 items ki class ga petaa anuko ah rendu overlap
+        avtay */
     </style>
 </head>
 <body>
     <div class="container">
-       <div class="items">dabba1</div>
-       <div class="items">dabba2</div>
+        <!-- vimp more than one class pettali ante ilaga pettali rendu sarlu 
+         class="items" class="item-1" ila rayaku -->
+       <div class="items item-1">dabba1</div>
+       <div class="items item-2">dabba2</div>
        <div class="items">dabba3</div>
        <div class="items">dabba4</div>
        <div class="items">dabba5</div>

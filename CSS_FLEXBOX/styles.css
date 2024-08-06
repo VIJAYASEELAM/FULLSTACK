@@ -1,19 +1,41 @@
-.item{
+.item {
     height: 50px;
     width: 50px;
     background-color: blueviolet;
     margin: 4px;
-    
+    /* indulo undevi anni items ki properties so itams lone rayali neve use container prop
+    here or these properties there */
+    /* flex-shrink: 2; ante shrink ayyedi double spped lo shrink avtadi when u are decreasing the width of page */
+      /* flex-grow:2 ante 2 elements ni vatiki kalipi oka element ga teesukuntadi ikkada  
+      ante anni elements oka width teesukunte ee elemnt daniki double
+       teesukuntadi 
+       
+      align-self : centre ante only ah element ni centre chestadi */
     border: 2px solid red;
+
+    .order1 {
+        order: 1;
+        /* defualt order is zero always */
+        /* order 1 , order 2 ante takkuva order unnadi mundu vastadi
+       so ee class ni deniki ayina pedithe adi ah order ki apply avtadi */
+    }
+
+    .order2 {
+        order: 2;
+    }
 }
-.container
-{
-    display: flex;/*mana items indulo unnay avi row wise flex avvali kabatti container lo pedtam flex*/
+
+.container {
+    display: flex;
+    /*mana items indulo unnay avi row wise flex avvali kabatti container lo pedtam flex*/
     height: 80vh;
+    /* flex axis y pedithe column will be main axis and row will be
+    cross axis so nuv justify content kani emaina chesthe avi main axis ki according gane chestadi */
     /* flex-direction: column;ante coloumn lo ante vertical ga oka dani kinda okati untadi */
-    justify-content: right;/*idi first row lo data ni center ki pedtundi */
+    justify-content: right;
+    /*idi first row lo data ni center ki pedtundi */
     /* align-items: center;idi coloumn ki madyalo vastadi so paidi idi vadadam valla motham box ki centre loki vastadi */
-    /* align-content: center;more than one unnappudu lines align items place lo align content ni use karo */
+    /* align-content: center;more than one unnappudu lines align items place lo align content ni use karo apppudu avi anni centre ki vastay*/
     /* flex-wrap: wrap;ante content ekkuva ayithe kinda next line lo vastayi migatavi avthayi */
     border: 2px solid black;
     /* flex-wrap: wrap-reverse;    ante kkothavi vachinappudu avi paina add chesstam */
@@ -21,8 +43,10 @@
     /* flex-flow: <flex-direction> <flex-wrap>*/
     /* example for flex flow is
       flex-flow: row wrap;
+     
      */
-     /* gap : */
-     /* gap: 30px; */
-     /* ante element ki element ki anta gap untadi */
+    /* gap : */
+    /* gap: 30px; */
+    /* ante element ki element ki anta gap untadi */
+ 
 }
