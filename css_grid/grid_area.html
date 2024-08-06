@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating with grid area</title>
+    <style>
+        .container{
+            border: 20px solid black;
+            display: grid;
+            grid-template-areas: "nav nav nav"
+                                  "side article article"
+                                  "footer footer footer";
+        }
+        .item{
+            border: 2px solid red;
+            height: 55px;
+        }
+        .item-1{
+            grid-area: nav;/*ante grid lo nav ekkada undo ee item ni akkada pettamani meaning*/
+            background-color: aqua;
+        }
+        .item-2{
+            grid-area: side;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item-1">dabba1</div>
+        <div class="items item-2">dabba2</div>
+        <div class="items">dabba3</div>
+        <div class="items">dabba4</div>
+        <div class="items">dabba5</div>
+    </div>
+</body>
+</html>
