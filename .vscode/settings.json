@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5503
+    "liveServer.settings.port": 5506,
+    "livePreview.defaultPreviewPath": "/css_grid/grid_area.html"
 }
