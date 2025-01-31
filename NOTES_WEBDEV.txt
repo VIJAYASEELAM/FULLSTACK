@@ -1,0 +1,4 @@
+justify-content:center -------> for making horizontally center
+align-items : center -----> makes vertically center
+flex-direction: column; ----> puts top to bottom
+ flex-direction: row reverse -----> starts laying itms from right to left
