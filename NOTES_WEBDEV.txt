@@ -1,4 +1,21 @@
+<---------------- FLEX BOX---------------------->
 justify-content:center -------> for making horizontally center
 align-items : center -----> makes vertically center
 flex-direction: column; ----> puts top to bottom
  flex-direction: row reverse -----> starts laying itms from right to left
+ flex-wrap : wrap -------- > oka line lo fill ayipothe next line create chestad inside container
+ default order -- 0
+
+ all of the above are container prop
+
+ now lets see items prop:
+ order: 1; // jitna bada order utna peeche dikegi items
+ flex-shrink: 2;
+
+ we can apply align-self:flex-start
+ this is item property so remove align content prop of the container
+
+
+ transform : translateX(10vw) translateY(10vh)
+ translateX -- moves in x axis direction
+ translatey -- moves in y axis direction

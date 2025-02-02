@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between; /* Push left & right sides apart */
+            align-items: center;
+            background-color: blueviolet;
+            height: 100px;
+            width: 100%;
+        }
+
+        .items-container {
+            display: flex;
+            gap: 20px; /* Spacing between items */
+            align-items: center;
+        }
+
+        .item1 img {
+            height: 50px;
+            width: 200px;
+        }
+
+        .items {
+            font-size: 16px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .change {
+            width: 9px;
+            height: 9px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <img src="UE_Logo_full_with_black_bkg.png" alt="UElogo">
+        </div>
+        <div class="items-container">
+            <div class="items">Products <img src="dropdown.svg" alt="Dropdown Icon" class="change"></div>
+            <div class="items">Pricing <img src="dropdown.svg" alt="Dropdown Icon" class="change"></div>
+            <div class="items">Resources <img src="dropdown.svg" alt="Dropdown Icon" class="change"></div>
+            <div class="items">About us <img src="dropdown.svg" alt="Dropdown Icon" class="change"></div>
+            <div class="items">Security & Compliance <img src="translate.svg" alt="Translate Icon" class="change"></div>
+        </div>
+    </div>
+</body>
+</html>

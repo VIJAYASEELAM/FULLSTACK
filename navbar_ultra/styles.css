@@ -7,7 +7,7 @@ body {
     width: calc(100% - 400px); /* Adjust width to leave a gap on the right */
     height: 50px;
     display: flex;
-
+    
     justify-content: flex-end; /* Align items to the right */
     margin-right: 20px; /* Add space to the right side of the navbar */
     margin-left: 200px;
@@ -16,6 +16,10 @@ body {
 /* .fontt{
     font-size: 15px;
 } */
+ .item1
+ {
+    /*align-self: flex-start;*/
+ }
 .items {
     
    
