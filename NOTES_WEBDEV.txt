@@ -19,3 +19,11 @@ flex-direction: column; ----> puts top to bottom
  transform : translateX(10vw) translateY(10vh)
  translateX -- moves in x axis direction
  translatey -- moves in y axis direction
+
+ JAVA SCRIPT VARIABLE
+ ----------------------------
+ var --- public scope
+ let,const --- block scope
+ const -- cant change ever
+ always try to use let in JS cause it is safe 
+ 

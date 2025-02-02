@@ -11,4 +11,6 @@ else
 {
     console.log("not blasting")
 }
+document.title = "Hey iam sad"
+document.body.style.backgroundColor = "blue" //this code adds inline css in code
 console.log("your num is " + a);
