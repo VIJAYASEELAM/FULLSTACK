@@ -19,5 +19,6 @@ numbers.splice(2,1,23,24)
 console.log(numbers)
 
 //OBJECTS iteration
-The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects, allowing scripts (such as JavaScript) to dynamically access, modify, and manipulate the content, structure, 
-and style of a webpage.
+//The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects, allowing scripts (such as JavaScript) to dynamically access, modify, and manipulate the content, structure, 
+//and style of a webpage.
+
