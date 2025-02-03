@@ -39,3 +39,8 @@ flex-direction: column; ----> puts top to bottom
  {
     //code
  }
+ String immutable
+ shift --- removes first element and return that first eleemnt 
+ unshift --- add element at starting point
+ splice()  ---- used to add new items to an array 
+ 
