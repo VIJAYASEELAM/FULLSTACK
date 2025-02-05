@@ -22,3 +22,23 @@ console.log(numbers)
 //The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects, allowing scripts (such as JavaScript) to dynamically access, modify, and manipulate the content, structure, 
 //and style of a webpage.
 
+let obj = {
+    a:1,
+    b:2,
+    c:3
+}
+for(const key in obj)
+{
+    if(Object.hasOwnProperty.call(obj,key))//parameters are objname and iterator name
+    {
+        const ele = object[key];
+        console.log(key,element)
+    }
+}
+//by rule one elemnt should have one id
+for(const iterator of numbers)
+{
+    console.log(iterator)
+}
+
+
