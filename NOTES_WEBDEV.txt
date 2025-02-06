@@ -52,3 +52,15 @@ flex-direction: column; ----> puts top to bottom
  
 
  document.designMode = "on" ---------- kya mast chizz hh yrr ye kyunki tum  website mein kuch bhi edit kar sakti hh iss se
+
+
+ ---------EVENT BUBBLING-----------------
+ Event bubbling is a concept 
+ When an event is triggered on an element:
+
+The event starts at the target element.
+It then propagates upward through the parent elements until it reaches the <html> element.
+If an event listener is attached to any of these parent elements, it can respond to the event.
+
+like if u used any event listener on one comonent the same event listener applies to its parents also
+ro stop this propogation use e.stoppropogation functiom
