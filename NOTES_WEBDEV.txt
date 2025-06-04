@@ -64,3 +64,10 @@ If an event listener is attached to any of these parent elements, it can respond
 
 like if u used any event listener on one comonent the same event listener applies to its parents also
 ro stop this propogation use e.stoppropogation functiom
+
+------------------------CSS FILTERS ----------------------------
+see u can import image using img tag and in style use 
+  filter : blur(10px)
+  filter : brightness(122%) it will be more brightness
+  if we want to put more than one filter 
+  filter : brightness(120%) contrast(0.5) //using space we can add more than one
