@@ -11,13 +11,24 @@
             background-color: blue;
             border: 2px solid black;
             transform: rotateX(40deg);
-            /* transform: scaleX(1.6) ante size perugudhi xaxis lo*/
-            /*transform scale(1.6) ante size perugudhi normal ga*/
-          /* skew z axis lo cheyalemu */
+            /* transform: scaleX(1.6) ante size increases in xaxis*/
+            /*transform scale(1.6) ante size normally*/
+          /* we cant skew in z axis */
           /* we can do multiple translations at a time 
             transform:translateY(100%) skewX(40deg) */
-            /* transform-origin nte ey point ki side ga neeku  */
-            transform: rotate(40deg);/*40 ki degrees ki gap undakoodadu*/
+          /* 
+   transform-origin ka matlab hai ki kis point/side se element transform (rotate, scale, etc.) hoga. 
+   By default ye center hota hai. 
+
+   Example:
+   - transform-origin: center;   → element center se rotate/scale hoga.
+   - transform-origin: left;     → element left side se rotate/scale hoga.
+   - transform-origin: right;    → element right side se rotate/scale hoga.
+   - transform-origin: top left; → element top-left corner se transform hoga.
+   - transform-origin: 50% 100%; → X-axis 50% (center), Y-axis 100% (bottom) se transform hoga.
+*/
+
+            transform: rotate(40deg);/*no gap btwn 40 and deg --- syntax dyan se*/
         }
         .container{
             height: 150px;
