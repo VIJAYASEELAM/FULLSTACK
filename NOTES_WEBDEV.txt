@@ -3,7 +3,11 @@ justify-content:center -------> for making horizontally center
 align-items : center -----> makes vertically center
 flex-direction: column; ----> puts top to bottom
  flex-direction: row reverse -----> starts laying itms from right to left
- flex-wrap : wrap -------- > oka line lo fill ayipothe next line create chestad inside container
+flex-wrap: nowrap; (default) → sab ek hi line mein, shrink hote rahenge.
+
+flex-wrap: wrap; → jagah khatam hote hi next line create.
+
+flex-wrap: wrap-reverse; → next line banegi but neeche ki jagah upar create hogi.
  default order -- 0
 
  all of the above are container prop
