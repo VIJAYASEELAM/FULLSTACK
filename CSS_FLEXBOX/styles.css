@@ -3,21 +3,40 @@
     width: 50px;
     background-color: blueviolet;
     margin: 4px;
-    /* indulo undevi anni items ki properties so itams lone rayali neve use container prop
-    here or these properties there */
-    /* flex-shrink: 2; ante shrink ayyedi double spped lo shrink avtadi when u are decreasing the width of page */
-      /* flex-grow:2 ante 2 elements ni vatiki kalipi oka element ga teesukuntadi ikkada  
-      ante anni elements oka width teesukunte ee elemnt daniki double
-       teesukuntadi 
-       
-      align-self : centre ante only ah element ni centre chestadi */
+   
+ 
+   isme jo bhi items ki properties hain wo sirf items me hi likhni chahiye,
+   container prop me nahi likhna.
+*/
+
+/* 
+   flex-shrink: 2;
+   matlab ye element double speed me shrink hoga jab tum page ki width kam karoge.
+*/
+
+/* 
+   flex-grow: 2;
+   matlab agar sab elements equal width lete hain to ye element un sabse 
+   double width lega.
+*/
+
+/* 
+   align-self: center;
+   matlab sirf ye particular element center me align hoga.
+*/
+
     border: 2px solid red;
 
     .order1 {
         order: 1;
         /* defualt order is zero always */
-        /* order 1 , order 2 ante takkuva order unnadi mundu vastadi
-       so ee class ni deniki ayina pedithe adi ah order ki apply avtadi */
+       /* 
+   order: 1 , order: 2;
+   matlab jiska order value kam hoga wo element pehle aayega.
+   
+   aur agar tum ye class kisi bhi element pe lagate ho,
+   to wahi order us element par apply ho jaata hai.
+*/
     }
 
     .order2 {
@@ -27,26 +46,47 @@
 
 .container {
     display: flex;
-    /*mana items indulo unnay avi row wise flex avvali kabatti container lo pedtam flex*/
+    /* is container ke andar jo bhi items hain, wo flex ban jaayenge.
+       Default flex-direction row hota hai, matlab items row-wise arrange hote hain. */
+
     height: 80vh;
-    /* flex axis y pedithe column will be main axis and row will be
-    cross axis so nuv justify content kani emaina chesthe avi main axis ki according gane chestadi */
-    /* flex-direction: column;ante coloumn lo ante vertical ga oka dani kinda okati untadi */
+
+    /* Agar tum flex-direction: column; kar dete ho to
+       vertical axis (Y) main axis ban jaata hai,
+       aur row (X) cross axis ho jaata hai.
+       Isliye justify-content hamesha main axis ke hisaab se kaam karta hai. */
+
+    /* flex-direction: column;
+       Matlab items ek ke niche ek vertically arrange ho jaayenge. */
+
     justify-content: right;
-    /*idi first row lo data ni center ki pedtundi */
-    /* align-items: center;idi coloumn ki madyalo vastadi so paidi idi vadadam valla motham box ki centre loki vastadi */
-    /* align-content: center;more than one unnappudu lines align items place lo align content ni use karo apppudu avi anni centre ki vastay*/
-    /* flex-wrap: wrap;ante content ekkuva ayithe kinda next line lo vastayi migatavi avthayi */
+    /*  Note: "right" valid nahi hai, isme "flex-start", "flex-end",
+       "center", "space-between", "space-around", "space-evenly" use karte hain.
+       Agar row direction hai to ye X-axis ke hisaab se arrange hoga. */
+
+    /* align-items: center;
+       Matlab cross-axis (agar row hai to Y-axis) me items center me aayenge. */
+
+    /* align-content: center;
+       Jab multiple lines hoti hain (wrap on) tab un lines ko
+       cross-axis ke hisaab se arrange karta hai. */
+
+    /* flex-wrap: wrap;
+       Matlab agar space kam pad gaya to items next line me chale jaayenge. */
+
     border: 2px solid black;
-    /* flex-wrap: wrap-reverse;    ante kkothavi vachinappudu avi paina add chesstam */
-    /*justify items anevi undav*/
-    /* flex-flow: <flex-direction> <flex-wrap>*/
-    /* example for flex flow is
-      flex-flow: row wrap;
-     
-     */
-    /* gap : */
-    /* gap: 30px; */
-    /* ante element ki element ki anta gap untadi */
- 
+
+    /* flex-wrap: wrap-reverse;
+       Matlab naye items neeche ke bajaye upar se add honge. */
+
+    /* justify-items:  Flexbox me nahi hota, ye CSS Grid me use hota hai. */
+
+    /* flex-flow: <flex-direction> <flex-wrap>;
+       Matlab flex-direction aur wrap dono ek saath likh sakte ho. */
+    
+    /* Example:
+       flex-flow: row wrap; */
+
+    /* gap: 30px;
+       Matlab har element ke beech 30px ka gap hoga. */
 }
