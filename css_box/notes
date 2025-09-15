@@ -1,21 +1,55 @@
-html content paina padding untadi , and padding paina margin untadi , nee content ki padding kalipesi bayata border untadi
-nee box ki paina kinda undalsina gaps ni manam margins tho istamu
+/* 
+    Padding, Margin, Border
+   - Content ke andar jo space hota hai → Padding
+   - Content + Padding ke bahar jo line hoti hai → Border
+   - Border ke bahar jo space hoti hai → Margin
+   - Matlab order: Content → Padding → Border → Margin
+*/
 
-height:400 ante ah element height 400 avthadi
-if height tho patu 
-box-sizing: border-box; ---> idi pedithe element with its height and padding, border kalipi istadi (except margin enduku ante margin  is outside element kabatti
-)
+/* 
+    height: 400;
+   - Is element ki height 400px ho jaayegi.
+*/
 
-MARGIN COLLAPSE:
-ippudu oka two elements okechota unte largevalu will be taken in margin
+/* 
+    box-sizing: border-box;
+   - By default height/width sirf content ke liye apply hoti hai (padding & border add hote hain upar se).
+   - Lekin border-box karne par height/width ke andar hi content + padding + border adjust ho jaate hain.
+   - Margin include nahi hota, kyunki margin element ke bahar hota hai.
+*/
 
+/* 
+    Margin Collapse
+   - Jab do elements ke margins ek dusre ko touch karte hain (top/bottom), 
+     to dono add nahi hote. 
+   - Sirf bada margin value apply hota hai.
+*/
 
-Fontfamily--------anni , petti rasey okati lekapothe inkoyi apply chestadi left to right choosukuntoo vastadi edi unte adi
+/* 
+    font-family
+   - Tum multiple fonts list kar sakte ho.
+   - Browser left to right check karta hai.
+   - Jo font available hoti hai, wahi apply ho jaati hai.
+   - Example: font-family: "Roboto", "Arial", sans-serif;
+*/
 
-importing from google:
-way 1 - using import statement vade ichestadu copy chesi style tag lone pettali lekapothe work avvadu and stles.css lo vadu ichina class lo code copy chesi pettu
+/* 
+    Google Fonts Import
+   Way 1: CSS file ke top me @import statement likhkar.
+   Way 2: <link> tag ko <head> me add karke.
+   Fir CSS me font-family use karte ho.
+*/
 
-inlineselector > ID Selector >class or attribute selector >element selector>universal selector
+/* 
+    Specificity Order (highest → lowest)
+   Inline Styles  >  ID Selector  >  Class/Attribute Selector  >  Element Selector  >  Universal Selector (*)
+*/
 
-
-div lo 5 p lu unnay anuko first para first child avthadi and next para second child alaga annamata
+/* 
+    nth-child / first-child
+   - Agar ek div me 5 <p> tags hain:
+     → pehla p = first-child
+     → doosra p = second-child
+     → teesra p = third-child ... and so on.
+   - nth-child(n) use karke tum kisi specific child ko target kar sakte ho.
+*/
