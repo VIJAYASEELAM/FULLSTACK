@@ -10,14 +10,33 @@
             margin: 0px;
             padding: 0px;
         }
-        .box{
-            border: 2px solid red;
-            display: inline;/*deeni valla nuv margin gani padding kani pettina top lo matram avi pani chestay */
-            /*so nuvvu inline-block ani teesukovali , inline unnappudu width kooda set cheyagalavu thats why take inline-block property*/
-            display: inline-block;
-            display:none;/*deeni valla ah box potadhi dani place kooda pothadi
-            visibility:hideen------ deeni valla box potadhi kani ah space alane untadi*/
-        }
+       .box {
+    border: 2px solid red;
+
+    /* display: inline;
+       - Isse element line ke andar aa jaata hai (jaise <span>, <a>).
+       - Lekin is case me tum padding/margin top-bottom fully apply nahi kar sakte,
+         sirf left-right kaam karega.
+       - Aur tum width/height bhi set nahi kar paoge.
+    */
+
+    /* display: inline-block;
+       - Ye inline ki tarah ek hi line me rehta hai,
+         but tum isme width/height, padding, margin sab set kar sakte ho.
+       - Example: <img> default inline-block hota hai.
+    */
+
+    /* display: none;
+       - Isse element gayab ho jaata hai aur uski jagah bhi remove ho jaati hai.
+       - Matlab element DOM me hai, par render nahi hota.
+    */
+
+    /* visibility: hidden;
+       - Isse element gayab ho jaata hai lekin uski jagah (space) abhi bhi reserved rahegi.
+       - Matlab box dikhega nahi, but empty space dikhai dega.
+    */
+}
+
     </style>
 </head>
 <body>
