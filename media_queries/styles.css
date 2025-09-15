@@ -17,13 +17,28 @@ body{
     }
 }
 @media only screen and (max-width:455px){
-     /* syntax is generally like this
-       @media not|only mediatype and (expressions)
-       CSS-code
-       phone , laptop alantivi emaina kavali ante screen
-       ikkada max width badulu min width kodda ivvagalam - ante minimum anta width unnappudu 
-       work avthadi
-     */
+   /* @media syntax usually aisa hota hai:
+   @media not|only mediatype and (condition) {
+      CSS rules
+   }
+
+   -- Mediatype = "screen", "print" etc.
+   -- Mostly responsive design ke liye "screen" use karte hain.
+
+   Example:
+   @media only screen and (max-width: 600px) {
+      body {
+         background-color: lightblue;
+      }
+   }
+
+    iska matlab: jab screen ki width 600px ya usse kam hogi,
+      tab body ka bg lightblue hoga.
+
+   max-width = chhoti screen (phone, tablet) ke liye.
+   min-width = badi screen (laptop, desktop) ke liye.
+*/
+
      body{
         background-color: blue;
      }
